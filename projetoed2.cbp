@@ -38,10 +38,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="menu.h" />
-		<Unit filename="merge.c">
+		<Unit filename="merge.h" />
+		<Unit filename="time.cpp" />
+		<Unit filename="vetor.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="merge.h" />
+		<Unit filename="vetor.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

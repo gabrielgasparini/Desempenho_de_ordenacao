@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1507675741 source:c:\users\aluno\desktop\projeto ed2\projetoed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1507675610 
+
+1507675610 source:c:\users\aluno\desktop\projeto ed2\projetoed2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+
+1507675638 c:\users\aluno\desktop\projeto ed2\projetoed2\menu.h
+
+1507675741 source:/media/felipe/RANSONWARE/Projeto ED2/projetoed2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1507675962 source:/media/felipe/RANSONWARE/Projeto ED2/projetoed2/menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+
+1507675638 /media/felipe/RANSONWARE/Projeto ED2/projetoed2/menu.h
+
+1507675741 source:f:\projeto ed2\projetoed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1507675962 source:f:\projeto ed2\projetoed2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+
+1507675638 f:\projeto ed2\projetoed2\menu.h
+
+1507679341 source:g:\projeto ed2\projetoed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1508452647 source:g:\projeto ed2\projetoed2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+
+1508438067 g:\projeto ed2\projetoed2\menu.h
+
+1508608203 source:c:\users\felipe\desktop\projetoed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1508609623 source:c:\users\felipe\desktop\projetoed2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+	"vetor.h"
+
+1508609560 c:\users\felipe\desktop\projetoed2\menu.h
+
+1508600263 c:\users\felipe\desktop\projetoed2\insertionsort.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"insertionsort.h"
+	"menu.h"
+
+1508596598 source:c:\users\felipe\desktop\projetoed2\time.cpp
+	<sys/time.h>
+	<stdio.h>
+
+1508600263 source:c:\users\felipe\desktop\projetoed2\insertionsort.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"insertionsort.h"
+	"menu.h"
+
+1508597102 c:\users\felipe\desktop\projetoed2\insertionsort.h
+
+1508609429 c:\users\felipe\desktop\projetoed2\vetor.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.h"
+
+1508609287 c:\users\felipe\desktop\projetoed2\vetor.h
+
+1508609754 source:c:\users\felipe\desktop\projetoed2\vetor.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.h"
+

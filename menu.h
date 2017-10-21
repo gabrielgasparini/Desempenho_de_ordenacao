@@ -12,4 +12,6 @@ void imprime_sub_menu();
 
 void redireciona_para_opcao(int opt);
 
-void gera_dados();
+
+
+
