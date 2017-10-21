@@ -5,9 +5,10 @@
 void vetor_insertion(dados){
     int **ord, i;
     ord = malloc(sizeof(int) *dados);
-        for(i = 0; i < dados; i++){
-            *ord[i] = dados;
-        }
+
+    for(i = 0; i < 10; i++){
+        printf("\t [%d]", ord[i]);
+    }
 }
 
 
@@ -40,9 +41,10 @@ void gera_dados(){
             printf("\n\n OPÇÃO INVÁLIDA!!!");
         break;
     }
-    int **dados = malloc(sizeof(int) *num);
+    int *dados = malloc(sizeof(int) *num);
+
     for(i =0; i < num; i++){
-        *dados[i] = rand();
+        dados[i] = rand();
     }
 
 }
