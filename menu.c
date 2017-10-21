@@ -45,7 +45,7 @@ int solicita_opcao(){
 }
 
 void redireciona_para_opcao(int opt){
-    int x;
+    int dados;
 
     switch(opt){ //Verifica qual opção foi selecionada e redireciona para módulos responsáveis pela execução.
         case 1:
