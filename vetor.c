@@ -3,14 +3,17 @@
 #include "vetor.h"
 
 void vetor_insertion(dados){
-    int **ord;
+    int **ord, i;
     ord = malloc(sizeof(int) *dados);
-    free(ord);
+        for(i = 0; i < dados; i++){
+            *ord[i] = dados;
+        }
 }
 
 
+
 void gera_dados(){
-    int i,num;
+    int i, num;
 
     printf("\n 1>> 1.000 \t 2>> 5.000 \t 3>> 10.000 \t 4>> 20.000 \t 5>> 50.000 \t 6>> 100.000 \t 0>> Voltar \n\n -> ");
     scanf("%d", &num);
