@@ -45,15 +45,19 @@ int solicita_opcao(){
 }
 
 void redireciona_para_opcao(int opt){
-    int dados;
+    int dados, i;
+    int *vetor_desordenado;
+
+    int *vetor_insertion_desordenado;
 
     switch(opt){ //Verifica qual opção foi selecionada e redireciona para módulos responsáveis pela execução.
         case 1:
             system("cls");
             printf("/_______________ TESTE DE ORDENAÇÃO_______________\\\n");
             printf("\n\nSelecione a quantidade de dados:");
-            gera_dados();
-            vetor_insertion();
+            vetor_desordenado = gera_dados();
+            vetor_insertion_desordenado = vetor_desordenado;
+            vetor_insertion(vetor_insertion_desordenado);
             aguarda_enter();
 
         break;

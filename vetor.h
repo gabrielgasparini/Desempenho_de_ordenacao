@@ -1,2 +1,2 @@
-void vetor_insertion(dados);
-void gera_dados();
+double vetor_insertion(dados);
+int *gera_dados();

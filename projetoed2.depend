@@ -104,3 +104,29 @@
 	<stdlib.h>
 	"vetor.h"
 
+1508604636 source:c:\users\gabriel\desktop\desempenho_de_ordenacao-master (1)\desempenho_de_ordenacao-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1508624386 source:c:\users\gabriel\desktop\desempenho_de_ordenacao-master (1)\desempenho_de_ordenacao-master\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+	"vetor.h"
+
+1508604636 c:\users\gabriel\desktop\desempenho_de_ordenacao-master (1)\desempenho_de_ordenacao-master\menu.h
+
+1508624629 c:\users\gabriel\desktop\desempenho_de_ordenacao-master (1)\desempenho_de_ordenacao-master\vetor.h
+
+1508604636 source:c:\users\gabriel\desktop\desempenho_de_ordenacao-master (1)\desempenho_de_ordenacao-master\time.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1508623832 source:c:\users\gabriel\desktop\desempenho_de_ordenacao-master (1)\desempenho_de_ordenacao-master\vetor.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.h"
+

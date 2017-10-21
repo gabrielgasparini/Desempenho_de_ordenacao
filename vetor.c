@@ -2,18 +2,18 @@
 #include <stdlib.h>
 #include "vetor.h"
 
-void vetor_insertion(dados){
-    int **ord, i;
-    ord = malloc(sizeof(int) *dados);
+double vetor_insertion(int vetor_desordenado){
+    int i;
+    int *vetor_insertion_ordena;
 
-    for(i = 0; i < 10; i++){
-        printf("\t [%d]", ord[i]);
+    *vetor_insertion_ordena = vetor_desordenado;
+
+    for(i = 0; i < 1000; i++){
+        printf("\n Vetor na Função de Ordenação, Posição %d° Valor:[%d]", i,vetor_insertion_ordena[i]);
     }
 }
 
-
-
-void gera_dados(){
+int *gera_dados(){
     int i, num;
 
     printf("\n 1>> 1.000 \t 2>> 5.000 \t 3>> 10.000 \t 4>> 20.000 \t 5>> 50.000 \t 6>> 100.000 \t 0>> Voltar \n\n -> ");
@@ -44,7 +44,12 @@ void gera_dados(){
     int *dados = malloc(sizeof(int) *num);
 
     for(i =0; i < num; i++){
-        dados[i] = rand();
+        dados[i] = rand() % 100000;
     }
 
+    /*for(i =0; i < num; i++){
+        printf("Posição %d° Valor: [%d] \n", i,dados[i]);
+    }*/
+
+    return dados;
 }
